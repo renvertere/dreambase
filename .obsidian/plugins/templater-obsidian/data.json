@@ -1,0 +1,70 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "content/templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "/",
+      "template": "content/templates/dashboard_template.md"
+    },
+    {
+      "folder": "content/knowledgebase",
+      "template": "content/templates/course_readme_template.md"
+    },
+    {
+      "folder": "content/knowledgebase/atoms",
+      "template": "content/templates/atoms_template.md"
+    },
+    {
+      "folder": "content/knowledgebase/how_to",
+      "template": "content/templates/how_to_template.md"
+    },
+    {
+      "folder": "content/knowledgebase/journal_logs",
+      "template": "content/templates/journal_logs_template.md"
+    },
+    {
+      "folder": "content/knowledgebase/transcripts/meetings",
+      "template": "content/templates/meeting_transcript_template.md"
+    },
+    {
+      "folder": "content/knowledgebase/transcripts/video_tutorials",
+      "template": "content/templates/video_transcipt_template.md"
+    },
+    {
+      "folder": "content/exercises/questions",
+      "template": "content/templates/exercise_q_template.md"
+    },
+    {
+      "folder": "content/exercises/answers",
+      "template": "content/templates/exercise_a_template.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1
+}

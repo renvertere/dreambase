@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "03ab7f029eacb1a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba430d7283a4c3ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c3e16a92ac785dd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "813daa40ec64aaef",
+    "type": "split",
+    "children": [
+      {
+        "id": "8faf103fe29fb5dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "155ed01493850f90",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9f988b89681ab7c7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "aa4a3deb3268448b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f7980ae410a2848c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6c1c38efdea44e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79a27e7748e0a68e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "359c891a97ff48bb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "02f34f64852f3337",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "717678e176babdd1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "6c3e16a92ac785dd",
+  "lastOpenFiles": [
+    "README.md",
+    "LLM INSTRUCTIONS.md",
+    "LICENSE.md",
+    "content/prompts/atom.prompt.md",
+    "content/templates/atoms_template.md",
+    "content/templates/course_readme_template.md",
+    "content/templates/dashboard_template.md",
+    "content/templates/exercise_a_template.md",
+    "content/templates/exercise_q_template.md",
+    "content/templates/how_to_template.md",
+    "content/templates/journal_logs_template.md",
+    "content/templates/meeting_transcript_template.md",
+    "content/templates/video_transcipt_template.md",
+    "content/knowledgebase/atoms/Untitled.md",
+    "content/templates/blank.md",
+    "testme/content/prompts/video_transcript.prompt.md",
+    "testme/content/prompts/meeting_transcript.prompt.md",
+    "testme/content/prompts/how_to.prompt.md",
+    "testme/content/prompts/course_readme.prompt.md",
+    "testme/content/prompts/atom.prompt.md",
+    "testme/content/templates/video_transcipt_template.md",
+    "testme/content/templates/meeting_transcript_template.md",
+    "testme/content/templates/journal_logs_template.md",
+    "testme/content/templates/how_to_template.md",
+    "testme/content/templates/exercise_q_template.md",
+    "testme/content/templates/exercise_a_template.md",
+    "testme/content/templates",
+    "testme/content/prompts",
+    "testme/content/knowledgebase/transcripts/video_tutorials",
+    "testme/content/knowledgebase/transcripts/meetings",
+    "testme/content/knowledgebase/transcripts",
+    "testme/content/knowledgebase/journal_logs",
+    "testme/content/knowledgebase/how_to",
+    "testme/content/knowledgebase/atoms",
+    "testme/content/knowledgebase",
+    "testme/content/exercises/questions"
+  ]
+}
