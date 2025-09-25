@@ -80,6 +80,15 @@ response_convention:
   Walkthrough:
     - how_to_template.md
 
+  Fix/Assist/Troublshooting:
+    - troubleshooting_template.md
+  Fix:
+    - troubleshooting_template.md
+  Troublshooting:
+    - troubleshooting_template.md
+  Troublshoot:
+    - troubleshooting_template.md
+
   Practice:
     - exercise_q_template.md
   Exercises:

@@ -40,7 +40,7 @@
     },
     {
       "folder": "content/knowledgebase/transcripts/video_tutorials",
-      "template": "content/templates/video_transcipt_template.md"
+      "template": "content/templates/video_to_atom_template.md"
     },
     {
       "folder": "content/exercises/questions",
@@ -49,6 +49,10 @@
     {
       "folder": "content/exercises/answers",
       "template": "content/templates/exercise_a_template.md"
+    },
+    {
+      "folder": "content/issues",
+      "template": "content/templates/troubleshooting_template.md"
     }
   ],
   "enable_file_templates": false,

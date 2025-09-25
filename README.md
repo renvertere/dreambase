@@ -41,7 +41,7 @@ The goal is to enforce **consistency**, **clarity**, and **automation-friendly f
 - **Structure**: Participants, Goals, Discussion Topics, Action Items, Next Meeting.  
 - **Use Case**: Project syncs, internal reviews, client calls.  
 
-### 6. **Video Transcript Template** (`video_transcript_template.md`)
+### 6. **Video Transcript Template** (`video_to_atom_template.md`)
 - **Purpose**: Capture content from social media or educational videos.  
 - **Structure**: Video Source, Creator & Collaborators, Index of Topics, Detailed Summaries, Calls to Action, References, Next Steps.  
 - **Use Case**: Summarizing educational YouTube content, tutorials, or recorded talks.  
@@ -55,6 +55,12 @@ The goal is to enforce **consistency**, **clarity**, and **automation-friendly f
 - **Purpose**: Central index for navigating notes, guides, logs, and templates.  
 - **Structure**: Reference Notes, Atoms, How-To Guides, Daily Logs, Template Includes.  
 - **Use Case**: Vault homepage for quick navigation.  
+
+### 9. **Troubleshooting Template** (`troubleshooting.md`)
+- **Purpose**: Capture and resolve technical issues in a structured way.  
+- **Structure**: Goal, Problem (technical), Problem (layman), Real-world Analogy, Areas to Investigate, Practical Solution, Verification, Related Notes.  
+- **Special Feature**: Dual explanation (technical vs layman) + analogy to make complex problems relatable. Encourages step-by-step solutions and verification.  
+- **Use Case**: Error logs, failed commands, debugging scenarios across any system (e.g., permissions issues, networking failures, resource bottlenecks).  
 
 ---
 
@@ -111,13 +117,13 @@ ChatGPT only needs the **rules + mappings**.
 ---
 
 ## 🔗 Suggested Workflow
-1. **Atom** → Capture atomic concepts.  
-2. **Exercise Q/A** → Reinforce understanding with practice.  
-3. **How To** → Document repeatable workflows.  
-4. **Transcripts** → Extract structured knowledge from meetings and videos.  
-5. **Course Readme** → Track structured learning journeys.  
-6. **Journal Logs** → Reflect daily progress.  
-7. **Dashboard** → Navigate everything from one place.  
+1. **Atom** → Capture atomic concepts.
+2. **Exercise Q/A** → Practice comprehension.
+3. **How To** → Record repeatable workflows.
+4. **Troubleshooting** → Diagnose and resolve unexpected errors or failures, linking back to related Atoms and How-To notes.
+5. **Meeting/Video Transcripts** → Extract structured knowledge from real-time content.
+6. **Course Readme** → Track structured learning journeys.
+7. **Dashboard** → Central navigation hub.
 
 ---
 
@@ -208,6 +214,7 @@ Dreambase/
 │   │   ├── how_to.prompt.md
 │   │   ├── meeting_transcript.prompt.md
 │   │   ├── video_to_atom.prompt.md
+│   │   ├── troubleshooting_prompt.md
 │   │   └── journal_logs.prompt.md
 │   └── templates
 │       ├── atom_template.md
@@ -218,6 +225,7 @@ Dreambase/
 │       ├── how_to_template.md
 │       ├── journal_logs_template.md
 │       ├── meeting_transcript_template.md
+│       ├── troubleshooting_template.md
 │       └── video_to_atom_template.md
 ├── resources
 │   └── img
