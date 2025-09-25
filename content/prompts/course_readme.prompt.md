@@ -1,7 +1,7 @@
 # Course Readme Prompt
 
 You are going to provide me with **course information** (syllabus, description, or outline).  
-Please parse the details into the **Course Readme template** (`course_readme.md`).
+Please parse the details into the **Course Readme template** (`course_readme_template.md`).
 
 ## Guidelines
 - Insert the official **course title** in the `title` field and `# <% tp.file.topic %>` heading.

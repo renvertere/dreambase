@@ -1,7 +1,7 @@
 # Meeting Transcript Prompt
 
 You are going to provide me with a **raw meeting transcript**.  
-Please parse it into the **Meeting Transcript template** (`meeting_transcript.md`).
+Please parse it into the **Meeting Transcript template** (`meeting_transcript_template.md`).
 
 ## Guidelines
 - Capture **participants** with their timestamps of first appearance.

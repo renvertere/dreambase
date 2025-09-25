@@ -36,7 +36,7 @@ Templates and prompts can be accessed in **two ways**:
 - **Practice** → `exercise_q_template.md` + `exercise_q.prompt.md`  
 - **Reflect** → `journal_logs_template.md` + `journal_logs.prompt.md`  
 - **Overview** → `dashboard_template.md` or `course_readme_template.md` (with prompts)  
-- **Transcript** → `meeting_transcript_template.md` or `video_transcript_template.md` (with prompts)  
+- **Transcript** → `meeting_transcript_template.md` or `video_to_atom_template.md` (with prompts)  
 
 ---
 
@@ -96,11 +96,11 @@ response_convention:
 
   Transcript:
     - meeting_transcript_template.md
-    - video_transcript_template.md
+    - video_to_atom_template.md
   Meeting:
     - meeting_transcript_template.md
   Video:
-    - video_transcript_template.md
+    - video_to_atom_template.md
 
   Overview:
     - dashboard_template.md

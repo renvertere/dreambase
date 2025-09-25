@@ -23,28 +23,25 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 ## 🎯 Goals
 - [HH:MM:SS] Goal 1 — Short description  
 - [HH:MM:SS] Goal 2 — Short description  
-- [HH:MM:SS] Goal N… — Short description  
+- [HH:MM:SS] Goal ...N — Short description  
 
 ---
 
 ## 🔖 Discussion Topics
 - [HH:MM:SS] Topic 1 — Key points discussed  
 - [HH:MM:SS] Topic 2 — Key points discussed  
-- [HH:MM:SS] Topic N… — Key points discussed  
+- [HH:MM:SS] Topic ...N — Key points discussed  
 
 ---
 
 ## 📅 Action Items / Next Steps
 - [HH:MM:SS] Action 1 — Owner (Due Date)  
 - [HH:MM:SS] Action 2 — Owner (Due Date)  
-- [HH:MM:SS] Action N… — Owner (Due Date)  
+- [HH:MM:SS] Action ...N — Owner (Due Date)  
 
 ---
 
 ## 🧭 Next Meeting
 - [HH:MM:SS] Proposed Date:  
 - [HH:MM:SS] Agenda Draft:  
-  - Item 1  
-  - Item 2  
-  - Item 3  
 

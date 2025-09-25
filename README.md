@@ -201,13 +201,13 @@ Dreambase/
 │   │       ├── meetings
 │   │       │   └── meeting_transcript_template.md
 │   │       └── video_tutorials
-│   │           └── video_transcript_template.md
+│   │           └── video_to_atom_template.md
 │   ├── prompts
 │   │   ├── atom.prompt.md
 │   │   ├── course_readme.prompt.md
 │   │   ├── how_to.prompt.md
 │   │   ├── meeting_transcript.prompt.md
-│   │   ├── video_transcript.prompt.md
+│   │   ├── video_to_atom.prompt.md
 │   │   └── journal_logs.prompt.md
 │   └── templates
 │       ├── atom_template.md
@@ -218,7 +218,7 @@ Dreambase/
 │       ├── how_to_template.md
 │       ├── journal_logs_template.md
 │       ├── meeting_transcript_template.md
-│       └── video_transcript_template.md
+│       └── video_to_atom_template.md
 ├── resources
 │   └── img
 ├── LICENSE.md

@@ -1,7 +1,7 @@
 # How-To Prompt
 
 You are going to provide me with **instructions or a workflow**.  
-Please parse the information into the **How-To template** (`how_to.md`).
+Please parse the information into the **How-To template** (`how_to_template.md`).
 
 ## Guidelines
 - Add the **title** of the task as the note title.

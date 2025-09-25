@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ba430d7283a4c3ce",
+        "id": "9509ba8360967cda",
         "type": "tabs",
         "children": [
           {
-            "id": "6c3e16a92ac785dd",
+            "id": "dcd5f84ea4f7b4fb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -163,12 +167,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6c3e16a92ac785dd",
+  "active": "dcd5f84ea4f7b4fb",
   "lastOpenFiles": [
-    "README.md",
     "LLM INSTRUCTIONS.md",
-    "LICENSE.md",
+    "content/templates/video_to_atom_template.md",
+    "content/prompts/video_to_atom.prompt.md",
     "content/prompts/atom.prompt.md",
+    "content/prompts/course_readme.prompt.md",
+    "content/prompts/how_to.prompt.md",
+    "content/prompts/meeting_transcript.prompt.md",
     "content/templates/atoms_template.md",
     "content/templates/course_readme_template.md",
     "content/templates/dashboard_template.md",
@@ -177,7 +184,8 @@
     "content/templates/how_to_template.md",
     "content/templates/journal_logs_template.md",
     "content/templates/meeting_transcript_template.md",
-    "content/templates/video_transcipt_template.md",
+    "README.md",
+    "LICENSE.md",
     "content/knowledgebase/atoms/Untitled.md",
     "content/templates/blank.md",
     "testme/content/prompts/video_transcript.prompt.md",
@@ -187,10 +195,6 @@
     "testme/content/prompts/atom.prompt.md",
     "testme/content/templates/video_transcipt_template.md",
     "testme/content/templates/meeting_transcript_template.md",
-    "testme/content/templates/journal_logs_template.md",
-    "testme/content/templates/how_to_template.md",
-    "testme/content/templates/exercise_q_template.md",
-    "testme/content/templates/exercise_a_template.md",
     "testme/content/templates",
     "testme/content/prompts",
     "testme/content/knowledgebase/transcripts/video_tutorials",
