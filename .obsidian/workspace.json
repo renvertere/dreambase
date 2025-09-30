@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9509ba8360967cda",
+        "id": "bf241fc7a9e269ab",
         "type": "tabs",
         "children": [
           {
-            "id": "dcd5f84ea4f7b4fb",
+            "id": "be852f3c44e48537",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -167,21 +167,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dcd5f84ea4f7b4fb",
+  "active": "be852f3c44e48537",
   "lastOpenFiles": [
-    "LLM INSTRUCTIONS.md",
-    "LICENSE.md",
     "README.md",
+    "CONTRIBUTING.md",
+    "resources/img/placeholder.file",
+    "content/templates/template_request.md",
+    "Untitled",
+    "LICENSE.md",
+    "LLM INSTRUCTIONS.md",
     "content/templates/troubleshooting_template.md",
+    "content/prompts/video_to_atom.prompt.md",
+    "content/templates/video_to_atom_template.md",
     "content/issues",
     "content/prompts/troubleshooting_prompt.md",
-    "content/prompts/video_to_atom.prompt.md",
     "content/prompts/atom.prompt.md",
     "content/prompts/course_readme.prompt.md",
     "content/prompts/meeting_transcript.prompt.md",
     "content/prompts/how_to.prompt.md",
     "src/PROJECT_INSTRUCTIONS.md",
-    "content/templates/video_to_atom_template.md",
     "content/templates/atoms_template.md",
     "content/templates/course_readme_template.md",
     "content/templates/dashboard_template.md",
@@ -193,16 +197,12 @@
     "content/knowledgebase/atoms/Untitled.md",
     "content/templates/blank.md",
     "testme/content/prompts/video_transcript.prompt.md",
-    "testme/content/prompts/meeting_transcript.prompt.md",
-    "testme/content/prompts/how_to.prompt.md",
     "testme/content/templates",
     "testme/content/prompts",
     "testme/content/knowledgebase/transcripts/video_tutorials",
     "testme/content/knowledgebase/transcripts/meetings",
     "testme/content/knowledgebase/transcripts",
     "testme/content/knowledgebase/journal_logs",
-    "testme/content/knowledgebase/how_to",
-    "testme/content/knowledgebase/atoms",
-    "testme/content/knowledgebase"
+    "testme/content/knowledgebase/how_to"
   ]
 }

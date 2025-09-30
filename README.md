@@ -1,7 +1,9 @@
 # # 🌌 DreamBase
 
-Dreambase is a collection of standardized **Markdown templates** and **prompts** for structured note-taking and learning in Obsidian.  
-The goal is to enforce **consistency**, **clarity**, and **automation-friendly formatting** across different knowledge capture contexts (courses, exercises, meetings, videos, how-tos, atoms, and more).
+**Dreambase** is a collection of standardized **Markdown templates** and **prompts** for structured note-taking and learning — designed for use in **Obsidian** or any general Markdown workflow.  
+The goal is to enforce **consistency**, **clarity**, and **automation-friendly formatting** across diverse knowledge capture contexts — whether you’re **drawing in crayon**, studying **nuclear physics**, or building **sophisticated knowledge-base SOPs**.
+
+Dreambase is developed and maintained by the team at the charity **DreamScape3^ VL (Virtual Learning)**.
 
 ---
 ## 🧰 Prerequisites
