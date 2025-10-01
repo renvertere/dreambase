@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "content/prompts/course_readme.prompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "course_readme.prompt"
             }
           }
         ]
@@ -169,6 +169,15 @@
   },
   "active": "be852f3c44e48537",
   "lastOpenFiles": [
+    "content/prompts/atom.prompt.md",
+    "content/prompts/video_to_atom.prompt.md",
+    "content/prompts/troubleshooting_prompt.md",
+    "content/prompts/meeting_transcript.prompt.md",
+    "content/prompts/how_to.prompt.md",
+    "content/prompts/course_readme.prompt.md",
+    "content/templates/video_to_atom_template.md",
+    "content/templates/troubleshooting_template.md",
+    "content/templates/atoms_template.md",
     "README.md",
     "CONTRIBUTING.md",
     "resources/img/placeholder.file",
@@ -176,17 +185,8 @@
     "Untitled",
     "LICENSE.md",
     "LLM INSTRUCTIONS.md",
-    "content/templates/troubleshooting_template.md",
-    "content/prompts/video_to_atom.prompt.md",
-    "content/templates/video_to_atom_template.md",
     "content/issues",
-    "content/prompts/troubleshooting_prompt.md",
-    "content/prompts/atom.prompt.md",
-    "content/prompts/course_readme.prompt.md",
-    "content/prompts/meeting_transcript.prompt.md",
-    "content/prompts/how_to.prompt.md",
     "src/PROJECT_INSTRUCTIONS.md",
-    "content/templates/atoms_template.md",
     "content/templates/course_readme_template.md",
     "content/templates/dashboard_template.md",
     "content/templates/exercise_a_template.md",

@@ -1,19 +1,24 @@
-# How-To Prompt
+I am going to provide you with a question on how to achieve an objective.
+Please parse the information into the How To template above.
 
-You are going to provide me with **instructions or a workflow**.  
-Please parse the information into the **How-To template** (`how_to_template.md`).
+**OUTPUT REQUIREMENTS (STRICT):**
 
-## Guidelines
-- Add the **title** of the task as the note title.
-- Write a **concise summary** explaining what the guide accomplishes.
-- List all **prerequisites** (tools, accounts, permissions, prior setup).
-- Break down the process into **clear, numbered steps**, using code blocks where relevant.
-- Add a **Verification** section showing how to confirm the steps worked.
-- Link to any **related notes**.
-- Keep the structure clean, with each section properly filled in.
+1) 1) **Do NOT include the document properties (the YAML block between `---` and `---`).** Obsidian generates this automatically.
+2) Render a SINGLE markdown document with these sections in THIS exact order:
+    - ## 🧾 Summary
+    - ## 🧰 Prerequisites
+    - ## 🧑‍💻 Steps
+    - ## ✅ Verification
+    - ## 🔗 Related Notes
 
-## Output
-Deliver the result as a filled-in markdown file using the structure above.
+2) Output EVERY section now in one response. Do NOT wait for confirmation.
+3) Do NOT add any extra headings, prose, or pre/post text outside those sections.
+4) Do NOT wrap the entire document in a code block. Only use fenced code blocks INSIDE the Steps” section as needed.
+5) If a section would be empty, include a brief placeholder line starting with “>”.
+6) Keep markdown valid and unbroken.
+
+## **Output**
+- Now, using the above rules, produce the how to guide.
 
 ## Guardrails
-Do **not** include this prompt in the output.
+- Do **not** include this prompt in the output.

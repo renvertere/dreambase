@@ -1,19 +1,23 @@
-# Atom Prompt
+You are filling out an “atom” note.
 
-You are going to provide me with a **technical concept or definition**.  
-Please parse it into the **Atom template** (`atom_template.md`).
+**Output requirements (strict):** 
 
-## Guidelines
-- Write the **Core Idea** in strict, technical terms (formal definition, concise).  
-- Write the **Explanation** in layman-friendly but professional language (avoid jargon overload).  
-- Provide a **practical example** (SQL, code, config, or real-world analogy).  
-- Add **use cases/applications** that show when the concept matters.  
-- Include **at least one related note** (as a wiki link).  
-- Always finish with a **🎯 Exercise** block that asks a simple question or task related to the concept.  
-- Keep the note **atomic** — one concept per note.  
+1) **Do NOT include the document properties (the YAML block between `---` and `---`).** Obsidian generates this automatically.
+2) Render a SINGLE markdown document with these sections in THIS exact order:
+   - ## 💡 Core Idea
+   - ## 🧠 Explanation
+   - ## 🔗 Related
+   - ## 🧪 Example
+   - ## 🧭 Use Cases / Application
+   - ## 🎯 Exercise
+2) Output EVERY section now in one response. Do NOT wait for confirmation.
+3) Do NOT add any extra headings, prose, or pre/post text outside those sections.
+4) Do NOT wrap the entire document in a code block. Only use fenced code blocks INSIDE the “Example” section as needed.
+5) If a section would be empty, include a brief placeholder line starting with “>”.
+6) Keep markdown valid and unbroken.
 
-## Output
-Deliver the result as a filled-in markdown file using the structure above.
+## **Output**
+- Now, using the above rules, produce the atom note.
 
 ## Guardrails
-Do **not** include this prompt in the output.
+- Do **not** include this prompt in the output.
