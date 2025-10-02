@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/prompts/course_readme.prompt.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "course_readme.prompt"
+              "title": "README"
             }
           }
         ]
@@ -169,16 +169,18 @@
   },
   "active": "be852f3c44e48537",
   "lastOpenFiles": [
-    "content/prompts/atom.prompt.md",
-    "content/prompts/video_to_atom.prompt.md",
+    "content/templates/standard_op_proc_template.md",
+    "content/prompts/standard_op_proc_prompt.md",
+    "README.md",
     "content/prompts/troubleshooting_prompt.md",
-    "content/prompts/meeting_transcript.prompt.md",
+    "content/prompts/video_to_atom.prompt.md",
     "content/prompts/how_to.prompt.md",
+    "content/prompts/meeting_transcript.prompt.md",
     "content/prompts/course_readme.prompt.md",
+    "content/prompts/atom.prompt.md",
     "content/templates/video_to_atom_template.md",
     "content/templates/troubleshooting_template.md",
     "content/templates/atoms_template.md",
-    "README.md",
     "CONTRIBUTING.md",
     "resources/img/placeholder.file",
     "content/templates/template_request.md",
@@ -196,7 +198,6 @@
     "content/templates/meeting_transcript_template.md",
     "content/knowledgebase/atoms/Untitled.md",
     "content/templates/blank.md",
-    "testme/content/prompts/video_transcript.prompt.md",
     "testme/content/templates",
     "testme/content/prompts",
     "testme/content/knowledgebase/transcripts/video_tutorials",

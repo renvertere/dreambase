@@ -64,6 +64,12 @@ Dreambase is developed and maintained by the team at the charity **DreamScape3^ 
 - **Special Feature**: Dual explanation (technical vs layman) + analogy to make complex problems relatable. Encourages step-by-step solutions and verification.  
 - **Use Case**: Error logs, failed commands, debugging scenarios across any system (e.g., permissions issues, networking failures, resource bottlenecks).  
 
+### 10. **Standard Operating Procedure Template** (`standard_op_proc_template.md`)
+- **Purpose**: Capture and standardize recurring operational processes.  
+- **Structure**: Purpose, Scope, Prerequisites, Procedure, Verification, Safety/Risks, Roles & Responsibilities, References, Benchmark/Time Indicator, Revision History.  
+- **Special Feature**: Benchmark section for expected vs. actual duration tracking.  
+- **Use Case**: Technical operations, IT processes, compliance procedures, and business workflows. 
+
 ---
 
 ## 📋 Prompts
@@ -75,6 +81,15 @@ Prompts enforce:
 - Timestamp validation.  
 - Linking related notes.  
 - Consistent atomic scope.  
+
+- `atom.prompt.md` → For atomic technical concepts.  
+- `course_readme.prompt.md` → For course outlines.  
+- `how_to.prompt.md` → For step-by-step guides.  
+- `meeting_transcript.prompt.md` → For meeting transcripts.  
+- `video_transcript.prompt.md` → For video transcripts.  
+- `journal_logs.prompt.md` → For daily journaling.  
+- `exercise_q.prompt.md` → For exercise questions.  
+- `standard_op_proc_prompt.md` → For Standard Operating Procedures (SOPs).  
 
 ---
 
@@ -198,39 +213,17 @@ Dreambase/
 │   ├── comments
 │   ├── exercises
 │   │   ├── questions
-│   │   │   └── exercise_q_template.md
 │   │   └── answers
-│   │       └── exercise_a_template.md
 │   ├── knowledgebase
 │   │   ├── atoms
 │   │   ├── how_to
 │   │   ├── journal_logs
 │   │   └── transcripts
 │   │       ├── meetings
-│   │       │   └── meeting_transcript_template.md
 │   │       └── video_tutorials
-│   │           └── video_to_atom_template.md
 │   ├── prompts
-│   │   ├── atom.prompt.md
-│   │   ├── course_readme.prompt.md
-│   │   ├── how_to.prompt.md
-│   │   ├── meeting_transcript.prompt.md
-│   │   ├── video_to_atom.prompt.md
-│   │   ├── troubleshooting_prompt.md
-│   │   └── journal_logs.prompt.md
 │   └── templates
-│       ├── atom_template.md
-│       ├── course_readme_template.md
-│       ├── dashboard_template.md
-│       ├── exercise_q_template.md
-│       ├── exercise_a_template.md
-│       ├── how_to_template.md
-│       ├── journal_logs_template.md
-│       ├── meeting_transcript_template.md
-│       ├── troubleshooting_template.md
-│       └── video_to_atom_template.md
 ├── resources
-│   └── img
 ├── LICENSE.md
 ├── README.md
 ├── LLM_PROJECT_INSTRUCTIONS.md
