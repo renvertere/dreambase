@@ -17,6 +17,7 @@ Permission is hereby granted, **free of charge**, to any person obtaining a copy
     All copies or substantial portions of the Software must include the following attribution statement in a visible location (such as documentation, headers, or about pages):
     > “Derived from Dreambase © DreamScape³ VL (Virtual Learning)”  
     > [https://github.com/renvertere/dreambase](https://github.com/renvertere/dreambase)
+
 	You must also provide a link to this license and indicate if changes were made.
 2. **Standard MIT Terms**  
     The above copyright notice and this permission notice shall be included in **all copies or substantial portions** of the Software.
