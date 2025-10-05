@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "LICENSE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "LICENSE"
             }
           }
         ]
@@ -169,16 +169,16 @@
   },
   "active": "b9006dfc5f914215",
   "lastOpenFiles": [
-    "TEMPLATE_AND_PROMPTS.md",
-    "README.md",
+    "CONTRIBUTING.md",
     "LLM INSTRUCTIONS.md",
+    "TEMPLATE_AND_PROMPTS.md",
+    "LICENSE.md",
+    "README.md",
     "TLDR.md",
     "src/project_instructions.gif",
     "content/templates/atoms_template.md",
     "src/free_vs_paid.gif",
     "content/prompts/atom.prompt.md",
-    "LICENSE.md",
-    "CONTRIBUTING.md",
     "content/prompts/how_to.prompt.md",
     "content/templates/how_to_template.md",
     "content/templates/standard_op_proc_template.md",
