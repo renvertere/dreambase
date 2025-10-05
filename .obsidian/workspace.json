@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TLDR.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TLDR"
+              "title": "README"
             }
           }
         ]
@@ -169,11 +169,12 @@
   },
   "active": "b9006dfc5f914215",
   "lastOpenFiles": [
-    "src/project_instructions.gif",
-    "TLDR.md",
+    "TEMPLATE_AND_PROMPTS.md",
     "README.md",
-    "content/templates/atoms_template.md",
     "LLM INSTRUCTIONS.md",
+    "TLDR.md",
+    "src/project_instructions.gif",
+    "content/templates/atoms_template.md",
     "src/free_vs_paid.gif",
     "content/prompts/atom.prompt.md",
     "LICENSE.md",
