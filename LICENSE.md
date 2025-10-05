@@ -24,6 +24,32 @@ Permission is hereby granted, **free of charge**, to any person obtaining a copy
 
 ---
 
+## 🚫 Exclusions — Third-Party Components
+
+This license **does not apply** to third-party software, plugins, or assets included within this repository for convenience or interoperability purposes.
+
+Specifically excluded are all components located under:
+
+```shell
+.obsidian/
+├── plugins/
+│   ├── dataview/
+│   │   ├── main.js
+│   │   ├── manifest.json
+│   │   └── styles.css
+│   └── templater-obsidian/
+│       ├── data.json
+│       ├── main.js
+│       ├── manifest.json
+│       └── styles.css
+```
+
+Each of these components remains under the **original license** provided by its respective author(s).  
+Dreambase makes no claim of ownership or authorship over these files, and they are included **solely for configuration and reference** within the Obsidian environment.
+
+
+---
+
 ## 🧾 Disclaimer
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
