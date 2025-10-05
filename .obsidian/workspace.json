@@ -11,10 +11,14 @@
             "id": "b9006dfc5f914215",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TLDR.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "TLDR"
             }
           }
         ]
@@ -165,13 +169,13 @@
   },
   "active": "b9006dfc5f914215",
   "lastOpenFiles": [
-    "README.md",
+    "src/project_instructions.gif",
     "TLDR.md",
+    "README.md",
     "content/templates/atoms_template.md",
     "LLM INSTRUCTIONS.md",
     "src/free_vs_paid.gif",
     "content/prompts/atom.prompt.md",
-    "src/project instructions.gif",
     "LICENSE.md",
     "CONTRIBUTING.md",
     "content/prompts/how_to.prompt.md",

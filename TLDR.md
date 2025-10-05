@@ -31,7 +31,7 @@ project_topic:
 - **Transcript** → `meeting_transcript_template.md` or `video_to_atom_template.md`
 ```
 
-![[project instructions.gif]]
+![project instructions](./src/project_instructions.gif)
 
 ## 💬 Paid vs Free LLM's
 DreamBase works with **any** language model — paid or free — as long as it can process Markdown input and follow structured prompts.  
@@ -54,4 +54,4 @@ Here’s how the setup differs:
 - 🚀 This will ensure the model creates a chatbased memory locked to the desired template. 
 - ✅ You will need to do this for every template type you want to use.
 
-![[free_vs_paid.gif]]
+![free_vs_paid](./src/free_vs_paid.gif)
