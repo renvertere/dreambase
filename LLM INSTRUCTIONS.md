@@ -1,10 +1,34 @@
 # 🌌 DreamBase LLM Project Instructions
 
-This project is **template-isolated**.  
-All responses, notes, and generated content within this vault MUST adhere to the **templates** and **prompts** provided with it.  
-Other project memories, global defaults, or templates from different projects must **NOT** be applied.
+## 🧭 Project Topic Declaration Layer
+
+### 🧑 For the User
+
+At the beginning of every project folder, explicitly declare the **topic** and its **scope**.  
+This declaration ensures both you and the LLM remain strictly aligned to the same subject and prevents drift or hallucination.
+
+
+```yaml
+project_topic:
+  name: <short-title>
+  description: <one-line summary>
+  scope:
+    include:
+      - ...
+    exclude:
+      - ...
+```
 
 ---
+
+## 🤖 For the LLM
+
+When responding:
+1. **Anchor** all reasoning, analogies, and examples within the declared `project_topic.name`.
+2. **Reject or redirect** any request that introduces content outside the `project_topic.scope`.
+3. Treat `project_topic.description` as the **semantic boundary** for generation and retrieval.
+4. **Do not import** memory, style, or templates from other projects unless explicitly listed under `scope.include`.
+5. Maintain full **topic isolation** and **template discipline** at all times.
 
 ## 📐 Rules
 1. **Template Scope** → Use ONLY the provided templates (`*_template.md`).  

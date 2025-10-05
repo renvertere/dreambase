@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "bf241fc7a9e269ab",
+        "id": "a67ff204c995c9d5",
         "type": "tabs",
         "children": [
           {
-            "id": "be852f3c44e48537",
+            "id": "b9006dfc5f914215",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "New tab"
             }
           }
         ]
@@ -167,37 +163,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "be852f3c44e48537",
+  "active": "b9006dfc5f914215",
   "lastOpenFiles": [
+    "README.md",
+    "TLDR.md",
+    "content/templates/atoms_template.md",
+    "LLM INSTRUCTIONS.md",
+    "src/free_vs_paid.gif",
+    "content/prompts/atom.prompt.md",
+    "src/project instructions.gif",
+    "LICENSE.md",
+    "CONTRIBUTING.md",
+    "content/prompts/how_to.prompt.md",
+    "content/templates/how_to_template.md",
     "content/templates/standard_op_proc_template.md",
     "content/prompts/standard_op_proc_prompt.md",
-    "README.md",
     "content/prompts/troubleshooting_prompt.md",
     "content/prompts/video_to_atom.prompt.md",
-    "content/prompts/how_to.prompt.md",
     "content/prompts/meeting_transcript.prompt.md",
     "content/prompts/course_readme.prompt.md",
-    "content/prompts/atom.prompt.md",
     "content/templates/video_to_atom_template.md",
     "content/templates/troubleshooting_template.md",
-    "content/templates/atoms_template.md",
-    "CONTRIBUTING.md",
     "resources/img/placeholder.file",
     "content/templates/template_request.md",
     "Untitled",
-    "LICENSE.md",
-    "LLM INSTRUCTIONS.md",
     "content/issues",
     "src/PROJECT_INSTRUCTIONS.md",
     "content/templates/course_readme_template.md",
     "content/templates/dashboard_template.md",
     "content/templates/exercise_a_template.md",
     "content/templates/exercise_q_template.md",
-    "content/templates/how_to_template.md",
     "content/templates/journal_logs_template.md",
     "content/templates/meeting_transcript_template.md",
-    "content/knowledgebase/atoms/Untitled.md",
-    "content/templates/blank.md",
     "testme/content/templates",
     "testme/content/prompts",
     "testme/content/knowledgebase/transcripts/video_tutorials",

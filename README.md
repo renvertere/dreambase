@@ -6,6 +6,14 @@ The goal is to enforce **consistency**, **clarity**, and **automation-friendly f
 Dreambase is developed and maintained by the team at the charity **DreamScape3^ VL (Virtual Learning)**.
 
 ---
+
+## ⚡ TL;DR — Quick Start for DreamBase Users
+
+To simply get started, see the provided [TLDR.md](TLDR.md)
+
+**Goal**: Create a clean, self-contained knowledge vaults that uses LLMs (ChatGPT, Ollama, etc.) to generate perfectly formatted notes using the DreamBase templates.
+
+
 ## 🧰 Prerequisites
 - [Obsidian](https://obsidian.md/)
 - Obsidian Plugins:
@@ -82,45 +90,25 @@ Prompts enforce:
 - Linking related notes.  
 - Consistent atomic scope.  
 
-- `atom.prompt.md` → For atomic technical concepts.  
-- `course_readme.prompt.md` → For course outlines.  
-- `how_to.prompt.md` → For step-by-step guides.  
-- `meeting_transcript.prompt.md` → For meeting transcripts.  
-- `video_transcript.prompt.md` → For video transcripts.  
-- `journal_logs.prompt.md` → For daily journaling.  
-- `exercise_q.prompt.md` → For exercise questions.  
-- `standard_op_proc_prompt.md` → For Standard Operating Procedures (SOPs).  
+- `atom.prompt.md` → For atomic technical concepts.
+- `course_readme.prompt.md` → For course outlines.
+- `how_to.prompt.md` → For step-by-step guides.
+- `meeting_transcript.prompt.md` → For meeting transcripts.
+- `video_transcript.prompt.md` → For video transcripts.
+- `journal_logs.prompt.md` → For daily journaling.
+- `exercise_q.prompt.md` → For exercise questions.
+- `standard_op_proc_prompt.md` → For Standard Operating Procedures (SOPs).
 
 ---
 
 ## 📜 LLM_PROJECT_INSTRUCTIONS.md
 
-This file acts as the **control layer** for ChatGPT when operating inside a vault created from Dreambase.  
+This file details the project instructions for your choice LLM(ChatGPT, Gemma, etc) when working inside of project folders.  
 It ensures template isolation, consistent formatting, and correct use of prompts.
-
-### 🛠️ How to use it
-
-When creating a new ChatGPT project folder:
-
-1. Copy `LLM_PROJECT_INSTRUCTIONS.md` into the root of your vault.
-2. Open the file and replace `<vault-name>` in the YAML section with the name of your vault/project.
-    - Example: change `name: <vault-name>` → `name: MyLearningVault`
-
-3. In ChatGPT project settings, **paste the following sections** from `LLM_PROJECT_INSTRUCTIONS.md`:
-    - 📐 **Rules**
-    - 🎛️ **Response Convention**
-    - ⚙️ **YAML Control Layer**
-
-
-These sections tell ChatGPT how to:
-- Stay isolated to your vault’s templates.
-- Map keywords (e.g., _Explain_, _Guide_, _Practice_, _etc_) to the correct template + prompt pairing.
-- Format all generated content consistently.
-
 
 ### ⚠️ Important
 Do **not** paste the explanatory text from `LLM_PROJECT_INSTRUCTIONS.md` into ChatGPT — it’s for humans only.  
-ChatGPT only needs the **rules + mappings**.
+ChatGPT only needs the **rules + mappings** see [TLDR.md](TLDR.md).
 
 ---
 
@@ -250,4 +238,4 @@ With the following conditions:
 - ℹ️ You must include the original copyright notice and this license in any copy.
 - ⚖️ The software is provided **“as is”**, without warranty of any kind.
 
-See LICENSE.md for the full text.
+See [LICENSE.md](LICENSE.md) for the full text.
