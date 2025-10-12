@@ -9,7 +9,12 @@ Dreambase is developed and maintained by the team at the charity **DreamScape3^ 
 
 ## ⚡ TL;DR — Quick Start for DreamBase Users
 
-To simply get started, see the provided [TLDR.md](TLDR.md)
+- To simply **get started**, see the provided [TLDR.md](resources/documents/TLDR.md)
+				**OR**
+- To just **jump right in** and try a template, check out [TLCR.md](resources/documents/TLCR.md), 
+	- Copy its contents,
+	- post it to an LLM,
+	- then prompt it to: `Explain Nuclear Physics`
 
 **Goal**: Create a clean, self-contained knowledge vaults that uses LLMs (ChatGPT, Ollama, etc.) to generate perfectly formatted notes using the DreamBase templates.
 
@@ -23,18 +28,19 @@ To simply get started, see the provided [TLDR.md](TLDR.md)
 
 ## 📑 Templates And Prompts
 
-For a full list of templates and their associated prompts, please see [TEMPLATE_AND_PROMPTS](./TEMPLATE_AND_PROMPTS.md)
+For a full list of templates, their associated prompts and intended purpose, please see [TEMPLATE OVERVIEW INDEX](./resources/template_overview/template_overview_index.md)
 
 ---
 
 ## 📜 LLM_PROJECT_INSTRUCTIONS.md
 
-[LLM INSTRUCTIONS] details the project instructions for your choice LLM(ChatGPT, Gemma, etc) when working inside of project folders.  
+[LLM INSTRUCTIONS](resources/documents/LLM_INSTRUCTIONS.md) details the project instructions for your choice LLM(ChatGPT, Gemma, etc) when working inside of project folders.  
 It ensures template isolation, consistent formatting, and correct use of prompts.
 
 ### ⚠️ Important
 Do **not** paste the explanatory text from `LLM_PROJECT_INSTRUCTIONS.md` into ChatGPT — it’s for humans only.  
-ChatGPT only needs the **rules + mappings** see [TLDR.md](TLDR.md).
+ChatGPT only needs the **rules + mappings** see [TLDR.md](resources/documents/TLDR.md). 
+
 
 ---
 ## 🔗 Suggested Workflow

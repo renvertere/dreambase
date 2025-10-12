@@ -57,21 +57,3 @@
 
 ---
 
-## 📋 Prompts
-Each template has a matching `.prompt.md` stored under `content/prompts/`.  
-These prompts enforce **Guidelines** for the LLM when parsing raw inputs (transcripts, outlines, workflows) into structured notes.
-
-Prompts enforce:  
-- Technical vs layman explanations.  
-- Timestamp validation.  
-- Linking related notes.  
-- Consistent atomic scope.  
-
-- `atom.prompt.md` → For atomic technical concepts.
-- `course_readme.prompt.md` → For course outlines.
-- `how_to.prompt.md` → For step-by-step guides.
-- `meeting_transcript.prompt.md` → For meeting transcripts.
-- `video_transcript.prompt.md` → For video transcripts.
-- `journal_logs.prompt.md` → For daily journaling.
-- `exercise_q.prompt.md` → For exercise questions.
-- `standard_op_proc_prompt.md` → For Standard Operating Procedures (SOPs).
