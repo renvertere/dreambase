@@ -11,7 +11,8 @@ Dreambase is developed and maintained by the team at the charity **DreamScape3^ 
 
 - To simply **get started**, see the provided [TLDR.md](resources/documents/TLDR.md)
 				**OR**
-- To just **jump right in** and try a template, check out [TLCR.md](resources/documents/TLCR.md), 
+- To just **jump right in** and try a template, check out DreamBase [Atoms](resources/tlcr/catalogue/atoms.md)  in the [TLCR](resources/documents/TLCR.md) catalogue and follow the steps bellow!
+
 	- Copy its contents,
 	- post it to an LLM,
 	- then prompt it to: `Explain Nuclear Physics`

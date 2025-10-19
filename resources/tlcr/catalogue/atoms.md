@@ -24,6 +24,8 @@ You are filling out an “atom” note.
 ## Guardrails
 - Do **not** include this prompt in the output.
 
+---
+
 Here is my template:
 
 ## 💡 Core Idea
@@ -47,5 +49,10 @@ Here is my template:
 ## 🧭 Use Cases / Application
 > When would this be used?
 
+
 ## 🎯 Exercise
 > Write a simple exercise question that tests this concept.
+
+---
+
+Acknowledge this instruction and wait for further input!

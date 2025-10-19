@@ -19,15 +19,15 @@ Central reference document describing every DreamBase template — their intent,
 | -------------------------------------- | ----------------------------- | ---------------------- |
 | **Template Purpose Index**             | `overview`                    | This document          |
 | **Dashboard**                          | root (`index.md`)             |                        |
-| **Atoms**                              | `atoms`                       | [[atoms]]              |
-| **How-To**                             | `how_to`                      | [[how_to]]             |
+| **Atoms**                              | `atoms`                       | [[resources/template_overview/breakdowns/atoms]]              |
+| **How-To**                             | `how_to`                      | [[resources/template_overview/breakdowns/how_to]]             |
 | **Exercise (Q/A)**                     | `exercises_q` / `exercises_a` | [[exercise_q_and_a]]   |
 | **Journal Logs**                       | `journal_logs`                | [[journal_logs]]       |
 | **Course Readme**                      | `readme`                      | [[course_readme]]      |
-| **Video To Atom Index**                | `video_to_atom`               | [[video_to_atom]]      |
-| **Meeting Transcript**                 | `meeting_transcript`          | [[meeting_transcript]] |
-| **SOP (Standard Operating Procedure)** | `standard_op_proc_template`   | [[standard_op_proc]]   |
-| **Troubleshooting**                    | `troubleshooting_template`    | [[troubleshooting]]    |
+| **Video To Atom Index**                | `video_to_atom`               | [[resources/template_overview/breakdowns/video_to_atom]]      |
+| **Meeting Transcript**                 | `meeting_transcript`          | [[resources/template_overview/breakdowns/meeting_transcript]] |
+| **SOP (Standard Operating Procedure)** | `standard_op_proc_template`   | [[resources/template_overview/breakdowns/standard_op_proc]]   |
+| **Troubleshooting**                    | `troubleshooting_template`    | [[resources/template_overview/breakdowns/troubleshooting]]    |
 | **Text 2 Image**                       | `t2i_schema_template`         | [[t2i_schema]]         |
 
 ---
