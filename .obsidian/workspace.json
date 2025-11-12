@@ -183,11 +183,11 @@
   },
   "active": "0a489a5155f089ad",
   "lastOpenFiles": [
-    "resources/tlcr/catalogue/atoms.md",
-    "resources/tlcr/catalogue/web_report.md",
     "resources/tlcr/catalogue/video_to_atom.md",
+    "resources/tlcr/catalogue/web_report.md",
     "content/templates/web_report_template.md",
     "content/prompts/web_report.prompt.md",
+    "resources/tlcr/catalogue/atoms.md",
     "content/templates/atoms_template.md",
     "content/prompts/meeting_transcript.prompt.md",
     "content/prompts/life_and_philosophy_prompt.md",
