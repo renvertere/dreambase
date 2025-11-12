@@ -11,7 +11,7 @@ Dreambase is developed and maintained by the team at the charity **DreamScape3^ 
 
 - To simply **get started**, see the provided [TLDR.md](resources/documents/TLDR.md)
 				**OR**
-- To just **jump right in** and try a template, check out DreamBase [Atoms](resources/tlcr/catalogue/atoms.md)  in the [TLCR](resources/documents/TLCR.md) catalogue and follow the steps bellow!
+- To just **jump right in** and try a template, check out DreamBase [Atoms](resources/tlcr/catalogue/atoms.md)  in the [TLCR](resources/tlcr/TLCR.md) catalogue and follow the steps bellow!
 
 	- Copy its contents,
 	- post it to an LLM,
