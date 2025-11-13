@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/tlcr/TLCR.md",
+                "file": "content/prompts/web_report.prompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TLCR"
+              "title": "web_report.prompt"
             }
           }
         ]
@@ -169,17 +169,17 @@
   },
   "active": "951d5cff4cebca36",
   "lastOpenFiles": [
+    "resources/tlcr/catalogue/web_report.md",
+    "content/prompts/web_report.prompt.md",
+    "resources/tlcr/catalogue/atoms.md",
+    "resources/tlcr/TLCR.md",
     "README.md",
     "resources/resources/tlcr/TLCR.md",
     "resources/resources/TLCR.md",
-    "resources/tlcr/TLCR.md",
     "resources/resources/tlcr",
     "resources/resources",
-    "resources/tlcr/catalogue/web_report.md",
     "resources/tlcr/catalogue/video_to_atom.md",
     "content/templates/web_report_template.md",
-    "content/prompts/web_report.prompt.md",
-    "resources/tlcr/catalogue/atoms.md",
     "content/templates/atoms_template.md",
     "content/prompts/meeting_transcript.prompt.md",
     "content/prompts/life_and_philosophy_prompt.md",

@@ -3,6 +3,7 @@ You are filling out a **“web_report”** note — a structured investigation e
 ---
 
 **Output requirements (strict):**
+
 1. **Do NOT include the document properties (the YAML block between `---` and `---`).** Obsidian generates this automatically.
 2. Render a **SINGLE markdown document** with these exact sections, in this exact order:
     - # 🧾 Investigation Report
@@ -23,10 +24,9 @@ You are filling out a **“web_report”** note — a structured investigation e
 6. Use fenced code blocks **inside sections only** when needed (e.g., tables, citation snippets).
 7. If a section would be empty, include a short placeholder line starting with “>”.
 8. Maintain valid Markdown for perfect Obsidian rendering.
+9. Always include legends to inform the end-users.
 
 ---
-
-### **Section semantics**
 
 ### **Section semantics**
 
@@ -36,9 +36,12 @@ You are filling out a **“web_report”** note — a structured investigation e
 - **🧩 Evidence Table** — Tabulate claims, sources, quotations, risk, validation, and archives.
     > **Legend:**
     > - **Risk Level:** chance this claim or source is unreliable (Low / Medium / High).
+    > - **Claim Risk:** evaluates the _claim itself_ based on the full evidence bundle.
+    > - **Source Risk:** evaluated separately; reflects reliability of the source only.
     > - **Confidence:** how confident we are that the claim is correct (0–100%).
     > - **Importance:** how much this claim matters to the report’s conclusion (1–5).
     > - **Decision Rule:** note used to accept or reject evidence.
+    > - 
 - **🧠 Source Annotations** — Describe each source (`[S#]`): type, credibility, authorship score, and rationale.
     > **Legend:**
     > - **Authorship Score (0.0–1.0):** likelihood of being human-written (1.0 = confirmed human).
@@ -48,15 +51,15 @@ You are filling out a **“web_report”** note — a structured investigation e
 - **🕳️ Gaps & Unknowns** — Identify missing or uncertain evidence.
 - **📊 Integrity Summary** — Summarize average risk, confidence, and source mix.
     > **Legend:**
-    > - _Risk_ = how trustworthy each group of sources is.
-    > - _Confidence_ = how sure we are about the claims they support.
-    > - _Global Confidence_ = overall reliability after balancing confidence and importance.
-- **🗂️ Appendix A – Artifacts** — Attach or reference screenshots, timestamps, SHA-256, and IDs.
+    > - **Risk:** how trustworthy each group of sources is.
+    > - **Confidence:** how sure we are about the claims they support.
+    > - **Global Confidence:** overall reliability after balancing confidence and importance.    
+- **🗂️ Appendix A – Artifacts** — Attach or reference screenshots, timestamps, SHA-256 hashes, and source IDs.
 - **🔍 Appendix B – Search Log** — Record search engines, queries, inclusions, and exclusions.
 - **🧮 Global Confidence** — Present the final overall reliability score.
     > **Legend:**  
-    > Global Confidence = combined score showing how solid the full report is, after giving more influence to more important claims.  
-    > Formula (plain language): higher-importance facts count more toward the overall confidence.
+    > Global Confidence = combined score showing how solid the full report is after giving more influence to more important claims.  
+    > Plain formula: higher-importance facts count more toward the overall confidence.
 - **🚨 Alerts** — List claims with Risk ≥ Medium or Confidence < 70.
     > Provide a one-line note on why it’s flagged and what verification step is required.
 
@@ -69,29 +72,29 @@ You are filling out a **“web_report”** note — a structured investigation e
 - Exclude all unverified or inferred statements.
 - Each entry must be fully grounded in verifiable citations.
 - Every **claim** must include three explicit values:
-    - **Risk Level (Low / Medium / High)** — Likelihood that the source or claim could mislead or be inaccurate.
-    - **Confidence Score (0–100%)** — How confident **we are** that the claim is correct, based on the strength, independence, and quality of the evidence.
-    - **Importance (1–5)** — How critical the claim is to the report’s main conclusion.
-- Confidence reflects **our evaluation**, not the evidence itself.  
-    It is derived from a structured justification combining:
-    - **Directness** (direct evidence vs inference)
-    - **Independence** (distinct or shared sources)
-    - **Recency** (currency of information)
+    - **Risk Level (Low / Medium / High)** — likelihood that the claim could mislead or be inaccurate.
+    - **Confidence Score (0–100%)** — how confident _we are_ that the claim is correct based on the strength, independence, and quality of the evidence.
+    - **Importance (1–5)** — how critical the claim is to the report’s main conclusion.
+- Confidence reflects **our evaluation**, not the evidence itself. It is derived from:
+    - **Directness** (direct vs inferred evidence)
+    - **Independence** (distinct vs shared sources)
+    - **Recency** (how current or outdated)
     - **Quality** (Primary, Secondary, Forum)
     - **Agreement** (number and alignment of independent sources)
 - **Risk and Confidence are not inverses.**  
-    Low-risk evidence can yield low confidence if it is incomplete or indirect.  
-    Medium-risk evidence can yield high confidence if multiple independent sources converge.
-- **Source Risk** and **Claim Confidence** must be evaluated separately.
-    - Risk belongs to the **source** and reflects potential bias or unreliability.
-    - Confidence belongs to the **claim** and reflects how sure we are after weighing all sources.
-- **Each Confidence Score must include a one-line justification** showing how the above factors were weighed, using the format:  
+    Low-risk evidence can yield low confidence if incomplete; medium-risk evidence can yield high confidence if corroborated.
+- **Source Risk** and **Claim Risk** must be evaluated separately.
+    - **Source Risk** reflects potential bias or unreliability of the _source_.
+    - **Claim Risk** reflects how likely the _claim itself_ is to mislead based on the complete evidence bundle.
+    > **Important:** A source can be Low Risk while the claim it supports is Medium or High Risk (e.g., outdated, indirect, incomplete, or poorly corroborated evidence).
+- **Claim Risk Definition:**  
+    Claim Risk evaluates how likely the claim itself is to mislead based on the totality of evidence (directness, independence, recency, quality, agreement).  
+    It is distinct from Source Risk and must be scored separately.
+- **Each Confidence Score must include a one-line justification** using this format:  
     `Justification: {Directness: } • {Independence: } • {Recency: } • {Quality: } • {Agreement: }`
 - **Importance weighting must be explicit.**  
-    A claim with lower confidence but higher importance may influence the report’s overall conclusion more strongly.  
-    Example: a regulatory statement at 70% confidence may outweigh a minor product note at 95%.
-- The **Global Confidence** score is the weighted blend of all claim confidences, giving more weight to more important claims.  
-    In plain terms: _the overall score shows how solid the report looks after balancing confidence with importance._
-- Reject unverified or circular evidence.  
-    Two articles repeating each other without independent data count as one source.
+    A lower-confidence but high-importance claim may influence the overall conclusion more strongly.
+- The **Global Confidence** score is the weighted blend of all claim confidences, giving more weight to more important claims.
+    > Plain meaning: it shows how solid the report looks after balancing all evidence.
+- Reject unverified or circular evidence. Two articles repeating the same data count as one source.
 - Always declare your **Confidence** as an informed judgment—never as fact.

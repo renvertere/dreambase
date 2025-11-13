@@ -26,6 +26,8 @@ You are filling out a **“web_report”** note — a structured investigation e
 7. If a section would be empty, include a short placeholder line starting with “>”.
 8. Maintain valid Markdown for perfect Obsidian rendering.
 9. Always include legends to inform the end-users.
+10. **Risk Rating in the Evidence Table refers to claim-level risk**—the likelihood the claim is misleading based on the total evidence.  
+11. **Source Risk** is evaluated separately in Source Annotations and may differ.
 
 ---
 
