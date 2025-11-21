@@ -43,7 +43,6 @@ You are filling out a **“web_report”** note — a structured investigation e
     > - **Confidence:** how confident we are that the claim is correct (0–100%).
     > - **Importance:** how much this claim matters to the report’s conclusion (1–5).
     > - **Decision Rule:** note used to accept or reject evidence.
-    > - 
 - **🧠 Source Annotations** — Describe each source (`[S#]`): type, credibility, authorship score, and rationale.
     > **Legend:**
     > - **Authorship Score (0.0–1.0):** likelihood of being human-written (1.0 = confirmed human).
@@ -202,14 +201,11 @@ Here is my template:
 > 	(Plain formula: higher-importance facts count more toward the overall confidence.)
 > 	“This score summarizes the entire investigation’s reliability; it’s not mathematical precision but an evidence-weighted confidence statement.”
 
-
-
 ---
 
 # 🚨 Alerts
 >List claims triggering alerts (Average Risk ≥ Medium or Confidence < 70).
 >Provide brief notes or next steps for corrective validation.
-
 
 ---
 
