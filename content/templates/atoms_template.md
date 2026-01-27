@@ -17,7 +17,6 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 ## 💡 Core Idea
 > Capture the concept in **precise, technical terms** (definition, standard, or core statement).
 
-
 ## 🧠 Explanation
 > Rewrite the idea in **layman-friendly language** — clear, simple, and relatable, but not childish.  
 > Use analogies or real-world examples where useful.
@@ -27,15 +26,17 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 - [[Related Note B]]
 
 ## 🧪 Example
-
 ```bash
 # If applicable, show a code or shell example here
 ```
 
-## 🧭 Use Cases / Application
-> When would this be used?
+🧭 Use Cases / Application
+When would this be used?
 
+🧾 Sources
+- Title — Publisher/Site — URL
+- Title — Publisher/Site — URL
 
-## 🎯 Exercise
-> Write a simple exercise question that tests this concept.
+🎯 Exercise
+Write a simple exercise question that tests this concept.
 

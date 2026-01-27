@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cd117b77c7c7ae10",
+        "id": "8325fa74d4da64b1",
         "type": "tabs",
         "children": [
           {
-            "id": "7137e760d4de85cf",
+            "id": "763498567f1ae21b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/prompts/llm_project_instructions.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "llm_project_instructions"
+              "title": "New tab"
             }
           }
         ]
@@ -167,14 +163,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7137e760d4de85cf",
+  "active": "763498567f1ae21b",
   "lastOpenFiles": [
+    "content/templates/web_report_template.md",
+    "Untitled.md",
+    "content/prompts/llm_project_instructions.md",
     "content/prompts/life_and_philosophy_prompt.md",
-    "content/prompts/llm_project_instructions.md",
-    "content/prompts/llm_project_instructions.md",
     "resources/tlcr/catalogue/web_report.md",
     "content/prompts/web_report.prompt.md",
-    "content/templates/web_report_template.md",
     "resources/tlcr/catalogue/atoms.md",
     "resources/tlcr/TLCR.md",
     "README.md",
