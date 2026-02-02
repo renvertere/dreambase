@@ -26,17 +26,17 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 - [[Related Note B]]
 
 ## 🧪 Example
-```bash
-# If applicable, show a code or shell example here
-```
+- Use the most appropriate format for this concept.
+- Examples may use: LaTeX (MathJax), SQL, YAML, Python, Bash, or plain text.
 
-🧭 Use Cases / Application
-When would this be used?
+## 🧭 Use Cases / Application
+> When would this be used?
 
-🧾 Sources
+## 🧾 Sources
 - Title — Publisher/Site — URL
 - Title — Publisher/Site — URL
 
-🎯 Exercise
-Write a simple exercise question that tests this concept.
+## 🎯 Exercise
+> Write a simple exercise question that tests this concept.
+
 
